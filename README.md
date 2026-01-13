@@ -7,12 +7,13 @@ This project helps manage books and users in a library through a text-based menu
 
 ## 🚀 Features
 
-- ➕ Add new books  
+- Admin panel and Student panel
+- ➕ Add new books by Admin
+-  ❌ Delete books by Admin
 - 📖 View all available books  
 - 🔍 Search books by ID or Name  
 - 🧑‍🤝‍🧑 Issue books to users  
-- 🔄 Return issued books  
-- ❌ Delete books  
+- 🔄 Return issued books    
 - 💻 Fully console-based (no GUI)  
 
 ---
