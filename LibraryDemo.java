@@ -158,18 +158,18 @@ class LibraryDemo{
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);	
 		System.out.println("1. for Admin Panel \t 2. for Students");
-		int menuchoice = sc.nextInt();
-		String name , passward;
+		int MenuChoice = sc.nextInt();
+		String name , password;
 		Library l = new Library();
-		switch(menuchoice){
+		switch(MenuChoice){
 		case 1: {
 			sc.nextLine();
 			System.out.print("Enter the UserName : ");
 			name = sc.nextLine();
 			System.out.print("Enter the Passward : ");
-			passward = sc.nextLine();
+			password = sc.nextLine();
 			//sc.nextLine();
-			Admin admin = new Admin(name , passward);
+			Admin admin = new Admin(name , password);
 			break;
 		}
 
@@ -215,4 +215,5 @@ class LibraryDemo{
 			}
 		}
 	}
+
 }
